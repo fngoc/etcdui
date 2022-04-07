@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EtcdUi</title>
+
+    <style>
+        body {
+            font-size: 28px;
+            line-height: 48px;
+            text-align: center;
+        }
+        .button8 {
+            display: inline-block;
+            color: #000000;
+            font-weight: 700;
+            text-decoration: none;
+            user-select: none;
+            padding: .5em 2em;
+            outline: none;
+            border: 2px solid;
+            border-radius: 1px;
+            transition: 0.2s;
+        }
+        .button8:hover { background: rgba(255,255,255,.2); }
+        .button8:active { background: white; }
+    </style>
+
+</head>
+<body class="center">
+    <h1>etcdUi</h1>
+    <form th:action="@{/search}" th:object="${search}" method="POST">
+        <input type="text" placeholder="Название таблицы" id="fieldName" th:field="*{fieldName}">
+        <label>/</label>
+        <input type="text" placeholder="Ключ" id="key" th:field="*{key}">
+        <div>
+            <button class="button8" type="submit" value="Поиск"> Поиск</button>
+        </div>
+    </form>
+    <a href="/swagger-ui/index.html">Swagger</a>
+</body>
+</html>

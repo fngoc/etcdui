@@ -16,7 +16,7 @@
     <description>etcdui</description>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>18</java.version>
     </properties>
     <dependencies>
         <!-- Spring -->
@@ -39,7 +39,7 @@
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
-            <version>1.6.6</version>
+            <version>1.6.7</version>
         </dependency>
 
         <!-- Вспомогательные зависимости -->

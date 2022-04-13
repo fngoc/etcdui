@@ -1,11 +1,11 @@
-package ru.example.controller;
+package org.vitmarkha.controller;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import ru.example.repository.EtcdRepository;
+import org.vitmarkha.repository.EtcdRepository;
 
 import java.util.List;
 

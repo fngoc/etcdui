@@ -9,7 +9,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>ru.example</groupId>
+    <groupId>org.vitmarkha</groupId>
     <artifactId>etcdui</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>etcdui</name>

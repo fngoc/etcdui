@@ -1,4 +1,4 @@
-package ru.example.repository;
+package org.vitmarkha.repository;
 
 import lombok.SneakyThrows;
 import org.json.simple.JSONArray;

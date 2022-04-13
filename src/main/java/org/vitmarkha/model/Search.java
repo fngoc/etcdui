@@ -1,4 +1,4 @@
-package ru.example.model;
+package org.vitmarkha.model;
 
 import lombok.Getter;
 import lombok.Setter;

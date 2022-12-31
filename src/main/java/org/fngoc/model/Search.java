@@ -1,4 +1,4 @@
-package org.vitmarkha.model;
+package org.fngoc.model;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package org.vitmarkha.repository;
+package org.fngoc.repository;
 
 import lombok.SneakyThrows;
 import org.json.simple.JSONArray;

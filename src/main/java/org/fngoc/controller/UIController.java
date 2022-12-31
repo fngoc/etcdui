@@ -1,4 +1,4 @@
-package org.vitmarkha.controller;
+package org.fngoc.controller;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.SneakyThrows;
@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
-import org.vitmarkha.model.Search;
-import org.vitmarkha.repository.EtcdRepository;
+import org.fngoc.model.Search;
+import org.fngoc.repository.EtcdRepository;
 
 import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
